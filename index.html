@@ -10,8 +10,11 @@
 
   	
   	<a-marker preset="hiro">
-      <a-box position="0 1 0" material="color: red;">
-        
+      <a-box position="0 1 0">
+        <a-assets>
+ 			 <a-asset-item id="model" src="assets/fancy_gramophone/scene.gltf"></a-asset-item>
+		</a-assets>
+		  <a-entity gltf-model="##model"></a-entity>
       </a-box>
   	</a-marker>
 		
